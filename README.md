@@ -3,9 +3,9 @@
 https://github.com/user-attachments/assets/099b1c17-6579-4ca0-9acd-e438acc8dc31
 
 ## Why?
-I always found VR Cockpit too hard to install and sometimes it doesn't even work. In my case, having the game on Epic Store make it quite hard to get everything working accordingly and I actually never managed to get it working properly. Currently, Elite Dangerous includes keybinds for Oculus Touch, but those don't include motion movement. 
+I always found VR Cockpit too hard to install, and sometimes it doesn't even work. In my case, having the game on Epic Store make it quite hard to get everything working accordingly, and I actually never managed to get it working properly. Currently, Elite Dangerous includes key binds for Oculus Touch, but those don't include motion movement. 
 
-This system allows to use the right Controller motion movement as a mouse so that it can be used as a "hotas" variaiton. To do so it will also use a variation of the default Oculus Touch Keybinds with the included mouse control.
+This system allows using the right Controller motion movement as a mouse so that it can be used as a "Hotas" variation. To do so, it will also use a variation of the default Oculus Touch Keybinds with the included mouse control.
 
 ## Requirements
 - [Auto Hot Key](https://www.autohotkey.com/): Used to map the motion control for vJoy
