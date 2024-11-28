@@ -135,7 +135,6 @@ Func_setvJoyButton := DllCall("GetProcAddress", "Ptr", AOTModule, "AStr", "setvJ
 Func_sendRawMouseMove := DllCall("GetProcAddress", "Ptr", AOTModule, "AStr", "sendRawMouseMove", "Ptr")
 Func_sendRawMouseButtonDown := DllCall("GetProcAddress", "Ptr", AOTModule, "AStr", "sendRawMouseButtonDown", "Ptr")
 Func_sendRawMouseButtonUp := DllCall("GetProcAddress", "Ptr", AOTModule, "AStr", "sendRawMouseButtonUp", "Ptr")
-Func_index_lib := 0
 
 InitOculus()
 {
@@ -351,11 +350,4 @@ SendRawMouseButtonUp(button)
 {
 	global Func_sendRawMouseButtonUp
     DllCall(Func_sendRawMouseButtonUp, "UInt", button)
-}
-
-Index_Lib()
-{
-	global Func_index_lib
-MsgBox, 0, Scripted by SpectreIVI for the Star Citizen community!,!GET COMFORTABLE!`n`nTHIS WINDOW WILL AUTO-CLOSE IN 7 SECONDS!`n`n`n`nSpecial Thanks To`n`nDesertFox71:Logistics+Trims`n`nChachi Sanchez:Test Pilot, 7
-
 }

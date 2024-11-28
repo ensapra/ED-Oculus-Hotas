@@ -66,13 +66,6 @@ pointFingerDelay:= static 200 ; Delay for pointing finger to activate, 100 = 1 s
 
 ; !DO NOT TOUCH REST OF SCRIPT OR IT WILL CEASE TO OPERATE!
 
-	; Star Citizens sneaky zeroes for Axis, thanks @DesertFox71!
-trimX := static 0.0525
-trimY := static 0.0525
-trimZ := static 0.0525
-trimSL0 := static 0.0525
-trimSL1 := static 0.0525
-
 	; Equations for converting user scalars and dead zones (DZ)
 leftPitchValue:= static (90/leftPitchScale)
 leftYawValue:= static (180/leftYawScale)
@@ -83,7 +76,6 @@ rightPitchValue:= static (90/rightPitchScale)
 rightYawValue:= static (180/rightYawScale)
 rightPosZValue:= static (rightPosZScale/36)
 rightPosZDZValue:= static (rightPosZDZ/36)
-Index_Lib() ; static (GetIndexed(0))
 leftRollOrigin:= static (GetRoll(0))
 leftRollOld:=0
 leftPitchOrigin:= static (GetPitch(0))
