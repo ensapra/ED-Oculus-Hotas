@@ -1,4 +1,4 @@
-# ED Oculus Hotas
+# Elite Dangerous Oculus Hotas
 
 https://github.com/user-attachments/assets/099b1c17-6579-4ca0-9acd-e438acc8dc31
 
