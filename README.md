@@ -30,10 +30,10 @@ This system allows using the right Controller motion movement as a mouse so that
         ![explorer_M3Ko3CD4ST](https://github.com/user-attachments/assets/252dfcce-f4d6-46c1-abb5-ea7beadf20b5)
         4. Launch Elite Dangerous and select
     2. Manual: In case you want full control of the keybinds
-        1. Laucn Elite Dangerous and select Oculus Touch
+        1. Launch Elite Dangerous and select Oculus Touch
         2. In Mouse Controls.
             - Set Mouse X-Axis to Roll
-            - Sety Mouse Y-Axis to Pitch
+            - Set Mouse Y-Axis to Pitch
             - I like having the Show Mouse Widget On (but you can set that to off if you prefer it
               
        ![image](https://github.com/user-attachments/assets/2db314d8-6da3-4f5d-a2ed-0e63cee5c0e2)
@@ -43,7 +43,7 @@ This system allows using the right Controller motion movement as a mouse so that
               
         ![image](https://github.com/user-attachments/assets/d1605d54-62e8-4286-8ce3-04d889ddfadd)
 
-**DISCLAIMER: The keybinds option will only appear if the OculusTouch controllers are connected to the computer. Otherwise it will not be shown.**
+**DISCLAIMER: The key binds option will only appear if the Oculus Touch controllers are connected to the computer. Otherwise, it will not be shown.**
 No controllers connected           |  With controllers actually connected
 :-------------------------:|:-------------------------:
 ![](https://github.com/user-attachments/assets/bb5c5cab-a8e2-454e-95f4-e0c392fff8de)  |  ![](https://github.com/user-attachments/assets/d76ee42e-6c83-41e1-bde1-299b4d448bb7)
