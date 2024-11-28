@@ -38,7 +38,7 @@ This system allows using the right Controller motion movement as a mouse so that
               
        ![image](https://github.com/user-attachments/assets/2db314d8-6da3-4f5d-a2ed-0e63cee5c0e2)
        
-        4. (Optional) In Flight Rotation
+        3. (Optional) In Flight Rotation
             - Set Yaw Axis to Oculus Left Stick X
               
         ![image](https://github.com/user-attachments/assets/d1605d54-62e8-4286-8ce3-04d889ddfadd)
