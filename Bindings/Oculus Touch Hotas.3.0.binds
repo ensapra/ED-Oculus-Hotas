@@ -6,7 +6,9 @@
 	<MouseYMode Value="Bindings_MousePitch" />
 	<MouseYDecay Value="0" />
 	<MouseReset>
-		<Primary Device="OculusTouch" Key="OculusTouch_RThumb" />
+		<Primary Device="OculusTouch" Key="OculusTouch_RThumb">
+			<Modifier Device="vJoy" Key="Joy_28" />
+		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</MouseReset>
 	<MouseSensitivity Value="1.00000000" />
@@ -15,7 +17,7 @@
 	<MouseLinearity Value="1.00000000" />
 	<MouseGUI Value="1" />
 	<YawAxisRaw>
-		<Binding Device="OculusTouch" Key="OculusTouch_LStickX" />
+		<Binding Device="OculusTouch" Key="OculusTouch_RStickX" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawAxisRaw>
@@ -27,8 +29,8 @@
 		<Primary Device="Keyboard" Key="Key_D" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</YawRightButton>
-	<YawToRollMode Value="Bindings_YawIntoRollTime" />
-	<YawToRollSensitivity Value="0.32000002" />
+	<YawToRollMode Value="Bindings_YawIntoRollNone" />
+	<YawToRollSensitivity Value="0.40000001" />
 	<YawToRollMode_FAOff Value="Bindings_YawIntoRollNone" />
 	<YawToRollButton>
 		<Primary Device="{NoDevice}" Key="" />
@@ -49,7 +51,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</RollRightButton>
 	<PitchAxisRaw>
-		<Binding Device="OculusTouch" Key="OculusTouch_LStickY" />
+		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</PitchAxisRaw>
@@ -425,15 +427,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseEnginesPower>
 	<IncreaseWeaponsPower>
-		<Primary Device="OculusTouch" Key="Pos_OculusTouch_RStickX">
-			<Modifier Device="OculusTouch" Key="OculusTouch_X" />
-		</Primary>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseWeaponsPower>
 	<IncreaseSystemsPower>
-		<Primary Device="OculusTouch" Key="Neg_OculusTouch_RStickX">
-			<Modifier Device="OculusTouch" Key="OculusTouch_X" />
-		</Primary>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseSystemsPower>
 	<ResetPowerDistribution>
@@ -529,15 +527,11 @@
 	<RightPanelFocusOptions Value="" />
 	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
-		<Primary Device="OculusTouch" Key="Neg_OculusTouch_RStickX">
-			<Modifier Device="OculusTouch" Key="OculusTouch_Y" />
-		</Primary>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapOpen>
 	<SystemMapOpen>
-		<Primary Device="OculusTouch" Key="Pos_OculusTouch_RStickX">
-			<Modifier Device="OculusTouch" Key="OculusTouch_Y" />
-		</Primary>
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SystemMapOpen>
 	<ShowPGScoreSummaryInput>
